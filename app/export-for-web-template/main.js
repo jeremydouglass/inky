@@ -91,6 +91,11 @@
                     window.open(splitTag.val);
                 }
 
+                // IMAGEFG: src
+                else if( splitTag && splitTag.property == "IMAGEFG" ) {
+                    storyContainer.style.backgroundImage = 'url('+splitTag.val+')';
+                }
+
                 // CLASS: className
                 else if( splitTag && splitTag.property == "CLASS" ) {
                     customClasses.push(splitTag.val);

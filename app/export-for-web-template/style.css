@@ -97,6 +97,7 @@ h3.written-in-ink {
     padding: 20px;
     padding-top: 4em;
     background: white;
+    background-repeat: repeat-x repeat-y;
 }
 
 .dark .container {
